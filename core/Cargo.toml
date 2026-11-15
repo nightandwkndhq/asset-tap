@@ -56,7 +56,7 @@ rayon = { workspace = true }
 include_dir = "0.7"
 
 # Integrity verification
-sha2 = "0.10"
+sha2 = "0.11"
 
 # Secure temporary files
 tempfile = "3.8"
