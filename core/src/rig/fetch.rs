@@ -22,7 +22,7 @@ pub const CLIP_PACKS_URL_ENV: &str = "ASSET_TAP_CLIP_PACKS_URL";
 
 /// Directory of already-trimmed Standard libraries (`ual1/pack.glb`, …).
 /// Mirrors `ASSET_TAP_CLIPS_DIR`: tests and a debug checkout can
-/// point at [`packs/`](https://github.com/nightandwknd/asset-tap/tree/main/packs)
+/// point at [`packs/`](https://github.com/nwknd/asset-tap/tree/main/packs)
 /// instead of GitHub Releases.
 pub const CLIP_PACKS_DIR_ENV: &str = "ASSET_TAP_CLIP_PACKS_DIR";
 

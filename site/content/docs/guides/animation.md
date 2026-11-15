@@ -101,7 +101,7 @@ actually contains.
 
 Machine-readable: `asset-tap --json bind --mesh model.glb --clip walk`.
 The result names the written model and the full baked clip set. See the
-[CLI machine interface](https://github.com/nightandwknd/asset-tap/blob/main/docs/CLI_MACHINE_INTERFACE.md).
+[CLI machine interface](https://github.com/nwknd/asset-tap/blob/main/docs/CLI_MACHINE_INTERFACE.md).
 
 ## Clip packs
 

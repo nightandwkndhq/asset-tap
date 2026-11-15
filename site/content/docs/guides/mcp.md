@@ -94,4 +94,4 @@ Older clients passing `fbx` or `no_fbx` are ignored; FBX was removed.
 - Not a hosted/remote service -- stdio only, runs on your machine with your keys.
 - Not a place capability appears first: anything the MCP can do, the CLI can do, by construction.
 
-The tools return the same shapes as the CLI's `--json` output; the full wire-format specification is [CLI_MACHINE_INTERFACE.md](https://github.com/nightandwknd/asset-tap/blob/main/docs/CLI_MACHINE_INTERFACE.md) in the repository.
+The tools return the same shapes as the CLI's `--json` output; the full wire-format specification is [CLI_MACHINE_INTERFACE.md](https://github.com/nwknd/asset-tap/blob/main/docs/CLI_MACHINE_INTERFACE.md) in the repository.

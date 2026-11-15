@@ -25,7 +25,7 @@ Grab your platform's installer from the [Download](@/download.md) page.
 
 All macOS downloads are universal binaries that run natively on both Intel and Apple Silicon Macs.
 
-1. Open [AssetTap-macos.dmg](https://github.com/nightandwknd/asset-tap/releases/latest/download/AssetTap-macos.dmg)
+1. Open [AssetTap-macos.dmg](https://github.com/nwknd/asset-tap/releases/latest/download/AssetTap-macos.dmg)
 2. Drag **AssetTap** to your Applications folder
 3. Launch from Applications or Spotlight
 
@@ -33,7 +33,7 @@ The app carries its own copy of the CLI internally. To use `asset-tap` from your
 
 ### Windows
 
-1. Run [asset-tap-windows-setup.exe](https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-windows-setup.exe)
+1. Run [asset-tap-windows-setup.exe](https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-windows-setup.exe)
 2. Launch Asset Tap from the Start Menu
 
 For the terminal, run the [Windows CLI install](#install-the-cli-windows) below.
@@ -75,7 +75,7 @@ curl -fsSL https://assettap.dev/install | bash -s -- v26.8.12
 curl -fsSL https://assettap.dev/install | ASSET_TAP_INSTALL_DIR=/usr/local/bin bash
 ```
 
-The script is [readable on GitHub](https://github.com/nightandwknd/asset-tap/blob/main/site/static/install.sh), and every step it performs can be done by hand with the archives on the [Download](@/download.md) page.
+The script is [readable on GitHub](https://github.com/nwknd/asset-tap/blob/main/site/static/install.sh), and every step it performs can be done by hand with the archives on the [Download](@/download.md) page.
 
 ## Install the CLI (Windows)
 
@@ -93,7 +93,7 @@ $env:ASSET_TAP_VERSION = "v26.8.12"; irm https://assettap.dev/install.ps1 | iex
 $env:ASSET_TAP_INSTALL_DIR = "C:\tools\asset-tap"; irm https://assettap.dev/install.ps1 | iex
 ```
 
-The script is [readable on GitHub](https://github.com/nightandwknd/asset-tap/blob/main/site/static/install.ps1).
+The script is [readable on GitHub](https://github.com/nwknd/asset-tap/blob/main/site/static/install.ps1).
 
 ## Requirements
 

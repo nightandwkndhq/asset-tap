@@ -7,10 +7,10 @@
 
 Your machine, your providers, the whole asset lifecycle.
 
-[![Release](https://github.com/nightandwknd/asset-tap/actions/workflows/release.yaml/badge.svg)](https://github.com/nightandwknd/asset-tap/actions/workflows/release.yaml)
-[![Version](https://img.shields.io/github/v/release/nightandwknd/asset-tap?label=version)](https://github.com/nightandwknd/asset-tap/releases/latest)
+[![Release](https://github.com/nwknd/asset-tap/actions/workflows/release.yaml/badge.svg)](https://github.com/nwknd/asset-tap/actions/workflows/release.yaml)
+[![Version](https://img.shields.io/github/v/release/nwknd/asset-tap?label=version)](https://github.com/nwknd/asset-tap/releases/latest)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue)](LICENSE-MIT)
-[![Platforms: macOS | Linux | Windows](https://img.shields.io/badge/platforms-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)](https://github.com/nightandwknd/asset-tap/releases/latest)
+[![Platforms: macOS | Linux | Windows](https://img.shields.io/badge/platforms-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)](https://github.com/nwknd/asset-tap/releases/latest)
 [![Built with Rust](https://img.shields.io/badge/built_with-Rust-dca282?logo=rust)](https://www.rust-lang.org/)
 
 </div>
@@ -45,11 +45,11 @@ asset-tap "a stylized sci-fi crate"
 
 ### Install the Desktop App
 
-Download your platform's installer from [GitHub Releases](https://github.com/nightandwknd/asset-tap/releases/latest).
+Download your platform's installer from [GitHub Releases](https://github.com/nwknd/asset-tap/releases/latest).
 
 **macOS (Universal: Intel + Apple Silicon)**
 
-1. Download [AssetTap-macos.dmg](https://github.com/nightandwknd/asset-tap/releases/latest/download/AssetTap-macos.dmg)
+1. Download [AssetTap-macos.dmg](https://github.com/nwknd/asset-tap/releases/latest/download/AssetTap-macos.dmg)
 2. Open the DMG file
 3. Drag **AssetTap** to your Applications folder
 4. Launch from Applications or Spotlight
@@ -58,7 +58,7 @@ The app carries its own copy of the CLI internally; for terminal use, run the CL
 
 **Windows**
 
-1. Download [asset-tap-windows-setup.exe](https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-windows-setup.exe)
+1. Download [asset-tap-windows-setup.exe](https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-windows-setup.exe)
 2. Run the installer
 3. Launch from the Start Menu
 
@@ -67,7 +67,7 @@ The app carries its own copy of the CLI internally; for terminal use, run the CL
 **.deb (Debian/Ubuntu)**
 
 ```bash
-curl -LO https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-linux-amd64.deb
+curl -LO https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-linux-amd64.deb
 sudo dpkg -i asset-tap-linux-amd64.deb
 ```
 
@@ -76,7 +76,7 @@ Installs `asset-tap-gui`, `asset-tap`, and the `atap` alias system-wide.
 **AppImage (Universal)**
 
 ```bash
-curl -LO https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-linux-x86_64.AppImage
+curl -LO https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-linux-x86_64.AppImage
 chmod +x asset-tap-linux-x86_64.AppImage
 ./asset-tap-linux-x86_64.AppImage
 ```
@@ -86,7 +86,7 @@ The AppImage is the GUI only. Pair it with the CLI install above for terminal us
 ### Build from Source
 
 ```bash
-git clone https://github.com/nightandwknd/asset-tap.git
+git clone https://github.com/nwknd/asset-tap.git
 cd asset-tap
 make build
 ```
@@ -292,6 +292,6 @@ See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for setup, building from source, 
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/nightandwknd/asset-tap/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/nightandwknd/asset-tap/discussions)
+- **Issues**: [GitHub Issues](https://github.com/nwknd/asset-tap/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/nwknd/asset-tap/discussions)
 - **Documentation**: [docs/](docs/)

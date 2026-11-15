@@ -17,10 +17,10 @@
 # SHA256SUMS → extract → move `asset-tap` + `atap` into the install dir →
 # print next steps. Everything happens in a temp dir that is cleaned up on
 # exit. The GUI apps (DMG / Windows installer / .deb / AppImage) are separate
-# downloads: https://github.com/nightandwknd/asset-tap/releases/latest
+# downloads: https://github.com/nwknd/asset-tap/releases/latest
 set -euo pipefail
 
-REPO="nightandwknd/asset-tap"
+REPO="nwknd/asset-tap"
 
 info() { printf '  \033[32m%s\033[0m %s\n' "${2:-•}" "$1"; }
 fail() {

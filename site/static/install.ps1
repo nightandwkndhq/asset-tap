@@ -17,7 +17,7 @@
 # next steps. Runs on Windows PowerShell 5.1 (preinstalled) and PowerShell 7+.
 #
 # The desktop app has its own installer:
-# https://github.com/nightandwknd/asset-tap/releases/latest
+# https://github.com/nwknd/asset-tap/releases/latest
 
 $ErrorActionPreference = "Stop"
 
@@ -31,7 +31,7 @@ function Install-AssetTap {
     # Windows PowerShell 5.1 defaults to TLS 1.0 -- GitHub requires 1.2+.
     [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
-    $Repo = "nightandwknd/asset-tap"
+    $Repo = "nwknd/asset-tap"
     $Asset = "asset-tap-cli-windows.zip"
     $Tag = if ($env:ASSET_TAP_VERSION) { $env:ASSET_TAP_VERSION } else { "latest" }
     $InstallDir = if ($env:ASSET_TAP_INSTALL_DIR) { $env:ASSET_TAP_INSTALL_DIR } else { Join-Path $env:LOCALAPPDATA "AssetTap\bin" }

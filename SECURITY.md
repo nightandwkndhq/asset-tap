@@ -6,7 +6,7 @@ reports that help keep users safe.
 ## Supported Versions
 
 Asset Tap is a rolling-release desktop app versioned with CalVer. Only the
-[latest release](https://github.com/nightandwknd/asset-tap/releases/latest) is supported.
+[latest release](https://github.com/nwknd/asset-tap/releases/latest) is supported.
 Please upgrade before reporting a suspected vulnerability, in case it is already fixed.
 
 ## Reporting a Vulnerability
@@ -16,7 +16,7 @@ problems.
 
 Use GitHub's private vulnerability reporting for this repository:
 
-1. Go to the [Security tab](https://github.com/nightandwknd/asset-tap/security).
+1. Go to the [Security tab](https://github.com/nwknd/asset-tap/security).
 2. Click **Report a vulnerability** to open a private advisory.
 
 Include as much as you can: affected version, platform (macOS/Linux/Windows), whether it

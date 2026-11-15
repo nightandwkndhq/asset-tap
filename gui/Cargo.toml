@@ -23,7 +23,7 @@ description = "Game asset generation pipeline"
 long_description = "Asset Tap turns a prompt, an image, or a mesh into a game-ready asset: concept art, a textured GLB, humanoid rigging with animation clips, all in one bundle. Desktop app, CLI, and MCP server. Open source, with generation routed to your chosen provider."
 authors = ["Asset Tap Contributors"]
 publisher = "nightandwknd"
-homepage = "https://github.com/nightandwknd/asset-tap"
+homepage = "https://github.com/nwknd/asset-tap"
 icons = ["../assets/icon.png", "../assets/icon.ico"]
 
 # macOS-specific configuration

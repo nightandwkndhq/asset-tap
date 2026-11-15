@@ -25,7 +25,7 @@ This guide covers local development setup, testing, code standards, and contribu
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/nightandwknd/asset-tap.git
+git clone https://github.com/nwknd/asset-tap.git
 cd asset-tap
 
 # 2. Copy environment template

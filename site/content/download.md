@@ -11,12 +11,12 @@ Asset Tap is **one pipeline with two interfaces**: a desktop app for visual, int
 
 Point-and-click generation with live previews. Recommended if you're starting out.
 
-| Platform | Package                                                                                                                               | Notes                    |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| macOS    | [AssetTap-macos.dmg](https://github.com/nightandwknd/asset-tap/releases/latest/download/AssetTap-macos.dmg)                           | GUI + CLI, Universal     |
-| Windows  | [asset-tap-windows-setup.exe](https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-windows-setup.exe)         | GUI, x86_64              |
-| Linux    | [asset-tap-linux-amd64.deb](https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-linux-amd64.deb)             | GUI + CLI, Debian/Ubuntu |
-| Linux    | [asset-tap-linux-x86_64.AppImage](https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-linux-x86_64.AppImage) | GUI, Universal Linux     |
+| Platform | Package                                                                                                                        | Notes                    |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+| macOS    | [AssetTap-macos.dmg](https://github.com/nwknd/asset-tap/releases/latest/download/AssetTap-macos.dmg)                           | GUI + CLI, Universal     |
+| Windows  | [asset-tap-windows-setup.exe](https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-windows-setup.exe)         | GUI, x86_64              |
+| Linux    | [asset-tap-linux-amd64.deb](https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-linux-amd64.deb)             | GUI + CLI, Debian/Ubuntu |
+| Linux    | [asset-tap-linux-x86_64.AppImage](https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-linux-x86_64.AppImage) | GUI, Universal Linux     |
 
 After installing, follow the [first-asset walkthrough](@/docs/getting-started/first-asset.md).
 
@@ -30,7 +30,7 @@ For terminals, CI, and agent workflows, including the [MCP server](@/docs/guides
 curl -fsSL https://assettap.dev/install | bash
 ```
 
-Installs `asset-tap` and the `atap` alias to `~/.local/bin`, checksum-verified. The script is [readable on GitHub](https://github.com/nightandwknd/asset-tap/blob/main/site/static/install.sh).
+Installs `asset-tap` and the `atap` alias to `~/.local/bin`, checksum-verified. The script is [readable on GitHub](https://github.com/nwknd/asset-tap/blob/main/site/static/install.sh).
 
 **Windows**
 
@@ -38,11 +38,11 @@ Installs `asset-tap` and the `atap` alias to `~/.local/bin`, checksum-verified. 
 irm https://assettap.dev/install.ps1 | iex
 ```
 
-Installs `asset-tap.exe` and `atap` to `%LOCALAPPDATA%\AssetTap\bin` and registers it on your user PATH, checksum-verified. The script is [readable on GitHub](https://github.com/nightandwknd/asset-tap/blob/main/site/static/install.ps1).
+Installs `asset-tap.exe` and `atap` to `%LOCALAPPDATA%\AssetTap\bin` and registers it on your user PATH, checksum-verified. The script is [readable on GitHub](https://github.com/nwknd/asset-tap/blob/main/site/static/install.ps1).
 
 Install options (pinning a release, choosing the install directory) are in the [installation guide](@/docs/getting-started/installation.md).
 
-**CLI-only archives:** [macOS](https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-cli-macos.tar.gz) · [Windows](https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-cli-windows.zip) · [Linux](https://github.com/nightandwknd/asset-tap/releases/latest/download/asset-tap-cli-linux.tar.gz)
+**CLI-only archives:** [macOS](https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-cli-macos.tar.gz) · [Windows](https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-cli-windows.zip) · [Linux](https://github.com/nwknd/asset-tap/releases/latest/download/asset-tap-cli-linux.tar.gz)
 
 Next: [CLI usage](@/docs/guides/cli-usage.md).
 
@@ -54,9 +54,9 @@ Next: [CLI usage](@/docs/guides/cli-usage.md).
 ## Build from source
 
 ```bash
-git clone https://github.com/nightandwknd/asset-tap.git
+git clone https://github.com/nwknd/asset-tap.git
 cd asset-tap
 make build
 ```
 
-See the [Development Guide](https://github.com/nightandwknd/asset-tap/blob/main/docs/DEVELOPMENT.md) for details. All download links point to the [latest release](https://github.com/nightandwknd/asset-tap/releases/latest).
+See the [Development Guide](https://github.com/nwknd/asset-tap/blob/main/docs/DEVELOPMENT.md) for details. All download links point to the [latest release](https://github.com/nwknd/asset-tap/releases/latest).

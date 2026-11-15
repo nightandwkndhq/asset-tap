@@ -33,12 +33,12 @@ pub const APP_ID: &str = "com.nightandwknd.asset-tap";
 
 /// Latest-release download prefix. Artifact names hang off this.
 pub const GITHUB_RELEASES_LATEST: &str =
-    "https://github.com/nightandwknd/asset-tap/releases/latest/download";
+    "https://github.com/nwknd/asset-tap/releases/latest/download";
 
 macro_rules! latest_asset {
     ($name:literal) => {
         concat!(
-            "https://github.com/nightandwknd/asset-tap/releases/latest/download",
+            "https://github.com/nwknd/asset-tap/releases/latest/download",
             $name
         )
     };
