@@ -2,6 +2,24 @@
 
 All notable changes to Asset Tap are documented here.
 
+## v26.11.2 — 2026-11-16
+
+### Chores
+
+- **deps:** bump the actions group across 4 directories with 2 updates ([#121](https://github.com/nwknd/asset-tap/pull/121))
+
+- **deps:** bump the rust-dependencies group across 1 directory with 2 updates ([#122](https://github.com/nwknd/asset-tap/pull/122))
+
+- **deps:** bump uuid ([#124](https://github.com/nwknd/asset-tap/pull/124))
+
+- **deps:** bump the actions group across 4 directories with 2 updates ([#128](https://github.com/nwknd/asset-tap/pull/128))
+
+- point GitHub paths at the nwknd org ([#126](https://github.com/nwknd/asset-tap/pull/126))
+
+  The repo moved from nightandwknd to nwknd on 2026-11-14. Redirects work,
+  but the installers, the smoke test, the in-app download URLs, the crate
+  metadata, the changelog template and the docs should name the new path.
+
 ## v26.11.1 — 2026-11-12
 
 ### Bug Fixes
