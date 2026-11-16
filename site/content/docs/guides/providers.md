@@ -317,7 +317,7 @@ asset-tap --list-providers
 asset-tap -p my-provider -y "a red cube"
 ```
 
-Working from a source build? The repository's [developer docs](https://github.com/nightandwknd/asset-tap/blob/main/docs/DEVELOPMENT.md) cover mock mode, which exercises a provider config without spending credits.
+Working from a source build? The repository's [developer docs](https://github.com/nwknd/asset-tap/blob/main/docs/DEVELOPMENT.md) cover mock mode, which exercises a provider config without spending credits.
 
 ---
 

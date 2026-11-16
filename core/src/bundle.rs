@@ -875,7 +875,14 @@ pub enum BundleError {
 /// Compute the SHA-256 hash of a byte slice, returned as a lowercase hex string.
 pub fn sha256_hex(data: &[u8]) -> String {
     use sha2::{Digest, Sha256};
-    format!("{:x}", Sha256::digest(data))
+    use std::fmt::Write;
+    // digest 0.11's output array no longer implements `LowerHex`.
+    Sha256::digest(data)
+        .iter()
+        .fold(String::with_capacity(64), |mut hex, byte| {
+            let _ = write!(hex, "{byte:02x}");
+            hex
+        })
 }
 
 /// Verify that the SHA-256 hash of `data` matches `expected_hex`.

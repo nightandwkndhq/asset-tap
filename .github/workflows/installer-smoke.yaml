@@ -44,7 +44,7 @@ jobs:
         env:
           VERSION: ${{ inputs.version }}
         run: |
-          url="https://github.com/nightandwknd/asset-tap/releases/download/$VERSION/SHA256SUMS.txt"
+          url="https://github.com/nwknd/asset-tap/releases/download/$VERSION/SHA256SUMS.txt"
           for _ in $(seq 1 20); do
             curl -fsSL --head -o /dev/null "$url" && exit 0
             sleep 15
@@ -84,7 +84,7 @@ jobs:
         env:
           VERSION: ${{ inputs.version }}
         run: |
-          $url = "https://github.com/nightandwknd/asset-tap/releases/download/$env:VERSION/SHA256SUMS.txt"
+          $url = "https://github.com/nwknd/asset-tap/releases/download/$env:VERSION/SHA256SUMS.txt"
           foreach ($i in 1..20) {
             try { Invoke-WebRequest -Uri $url -Method Head -UseBasicParsing | Out-Null; exit 0 } catch {}
             Start-Sleep -Seconds 15

@@ -48,7 +48,7 @@ logo_mark_path = "/images/icon.png"
 [extra.devlab.footer]
 note = "Open-source game asset generation pipeline."
 links = [
-  { name = "GitHub", path = "https://github.com/nightandwknd/asset-tap", icon = "github" },
+  { name = "GitHub", path = "https://github.com/nwknd/asset-tap", icon = "github" },
 ]
 
 [extra.devlab.navigation]

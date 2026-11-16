@@ -59,7 +59,7 @@ split_commits = false
 # Applied to the whole commit message before parsing.
 commit_preprocessors = [
   # Link PR numbers to GitHub.
-  { pattern = "\\(#([0-9]+)\\)", replace = "([#${1}](https://github.com/nightandwknd/asset-tap/pull/${1}))" },
+  { pattern = "\\(#([0-9]+)\\)", replace = "([#${1}](https://github.com/nwknd/asset-tap/pull/${1}))" },
   # GitHub's squash body is a bulleted list of the branch's commits, wrapped in
   # trailers and a rule. None of that belongs in release notes.
   { pattern = "(?mi)^Co-authored-by:.*$", replace = "" },

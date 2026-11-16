@@ -14,7 +14,7 @@ need to manage it by hand.
 Quick start:
 
 ```bash
-git clone https://github.com/nightandwknd/asset-tap.git
+git clone https://github.com/nwknd/asset-tap.git
 cd asset-tap
 make build
 make test

@@ -132,6 +132,6 @@ make doc-open   # Generate and open in browser
 
 ## Need Help?
 
-- **Questions**: [GitHub Discussions](https://github.com/nightandwknd/asset-tap/discussions)
-- **Bugs**: [GitHub Issues](https://github.com/nightandwknd/asset-tap/issues)
+- **Questions**: [GitHub Discussions](https://github.com/nwknd/asset-tap/discussions)
+- **Bugs**: [GitHub Issues](https://github.com/nwknd/asset-tap/issues)
 - **Contributing**: See [DEVELOPMENT.md](DEVELOPMENT.md)

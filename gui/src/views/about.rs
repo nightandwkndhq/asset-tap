@@ -205,13 +205,10 @@ impl AboutModal {
                     // GitHub link
                     if ui
                         .link("View on GitHub")
-                        .on_hover_text("https://github.com/nightandwknd/asset-tap")
+                        .on_hover_text("https://github.com/nwknd/asset-tap")
                         .clicked()
                     {
-                        crate::app::open_with_system(
-                            "https://github.com/nightandwknd/asset-tap",
-                            None,
-                        );
+                        crate::app::open_with_system("https://github.com/nwknd/asset-tap", None);
                     }
 
                     ui.add_space(12.0);
